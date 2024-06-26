@@ -1,0 +1,23 @@
+{
+  "name": "friends4fitz",
+  "version": "1.0.0",
+  "description": "Hi there 👋",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenwanderski/portfolio-2024.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenwanderski/portfolio-2024/issues"
+  },
+  "homepage": "https://github.com/stevenwanderski/portfolio-2024#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
