@@ -17,7 +17,7 @@
           Friends for Fitz
         </h1>
 
-        <p class="text-gray-500 text-[20px] leading-[28px] mb-12 text-center md:text-left md:text-[24px]">
+        <p class="text-gray-500 text-[20px] leading-[28px] mb-12 text-center px-14 md:text-left md:text-[24px] md:px-0">
           Memorial site for Billy Fitzgibbons
         </p>
       </div>
@@ -29,45 +29,47 @@
 
     <hr class="mb-10">
 
-    <div class="flex flex-col items-center pb-6 mb-10">
-      <div class="mb-3">
-        <img src="/img/heart.png" class="w-[35px]">
+    <div class="flex flex-col items-center pb-6 mb-10 md:block">
+      <div class="mb-3 flex flex-col items-center gap-3 md:flex-row md:items-center">
+        <div>
+          <img src="/img/heart.png" class="w-[35px]">
+        </div>
+
+        <h2 class="font-bold text-[24px]">
+          Make a Donation
+        </h2>
       </div>
 
-      <h2 class="font-bold text-[24px] mb-4">
-        Make a Donation
-      </h2>
+      <script async
+        src="https://js.stripe.com/v3/buy-button.js">
+      </script>
 
-      <div class="text-lg mb-4">
-        We are accepting donations via Zelle. Please send payments to the following username:
-      </div>
-
-      <div class="font-bold text-xl mb-3">
-        friends4fitz@gmail.com
-      </div>
-
-      <div>
-        <img src="/img/zelle.png" class="w-[78px]">
-      </div>
+      <stripe-buy-button
+        buy-button-id="buy_btn_1PVz4VP37FY1eXLVOYlevs2w"
+        publishable-key="pk_live_51PVxtYP37FY1eXLVW2krRt3uMP7NFOGsflQ0nqQBeP8LZmZ6wCmsPg2j6kiUq7YBbJPpFWaZAtfthJBixnCLGOP3006tO9pG3f"
+      >
+      </stripe-buy-button>
     </div>
 
     <hr class="mb-10">
 
-    <div class="flex flex-col items-center pb-10">
-      <div class="mb-3">
-        <img src="/img/calendar.png" class="w-[35px]">
+    <div class="flex flex-col items-center pb-10 md:block">
+      <div class="mb-3 flex flex-col items-center gap-3 md:flex-row md:items-center">
+        <div>
+          <img src="/img/calendar.png" class="w-[35px]">
+        </div>
+
+        <h2 class="font-bold text-[24px]">
+          Upcoming Events
+        </h2>
       </div>
 
-      <h2 class="font-bold text-[24px] mb-4">
-        Upcoming Events
-      </h2>
-
       <div class="mb-4">
-        <img src="/img/fundraiser-2024.jpg">
+        <img src="/img/fundraiser-2024.jpg" class="md:max-w-prose">
       </div>
 
       <div>
-        <a class="text-green-700 underline" href="https://www.beverlyreview.net/news/community_news/article_ba0355fa-2d92-11ef-ac5a-2f39b59ea246.html">
+        <a class="text-green-700 underline" target="_blank" href="https://www.beverlyreview.net/news/community_news/article_ba0355fa-2d92-11ef-ac5a-2f39b59ea246.html">
           Click here for more information.
         </a>
       </div>
